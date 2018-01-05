@@ -1,0 +1,30 @@
+<view class-="body">
+  <view class='header'>
+    <swiper class="banner" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <view class="search-btn" bindtap="tosearch">
+      <text class="search-btn-text">搜索你喜欢的...</text>
+      <image class="search-btn-icon" src="resources/ic_search.png"></image>
+    </view>
+  </view>
+
+  <view class="everyday">
+    <view class="everyday-tab">
+      <view class="everyday-tab-item">
+        <text class="everyday-tab-item-text">每日快报</text>
+      </view>
+      <view class="everyday-tab-item">
+        <text class="everyday-tab-item-text">今日更新</text>
+      </view>
+    </view>
+  </view>
+
+  
+
+</view>

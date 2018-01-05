@@ -1,0 +1,36 @@
+Page {
+  background: #eee;
+}
+
+
+.body{
+  color: #666;
+}
+
+.body .user{
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  padding-left: 30rpx;
+}
+
+.body .user .user-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 1rpx solid #eee;
+  vertical-align: middle;
+}
+
+.body .user .user-info{
+  margin-left: 40rpx;
+  text-align: center;
+}
+
+.body .user .user-info .user-nick {
+  font-size: 12px;
+  overflow: hidden;
+}

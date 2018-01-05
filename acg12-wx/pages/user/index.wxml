@@ -1,0 +1,10 @@
+<view class="body">
+  <view class="user">
+    <image class="user-avatar" src="{{avatar}}" />
+    <view class="user-info">
+       <text class="user-nick">{{nickName}}</text> 
+    </view>
+
+  </view>
+
+</view>
