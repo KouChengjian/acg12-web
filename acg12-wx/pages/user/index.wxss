@@ -2,12 +2,11 @@ Page {
   background: #eee;
 }
 
-
-.body{
+.body {
   color: #666;
 }
 
-.body .user{
+.body .user {
   display: flex;
   width: 100%;
   background-color: #fff;
@@ -25,12 +24,41 @@ Page {
   vertical-align: middle;
 }
 
-.body .user .user-info{
+.body .user .user-info {
   margin-left: 40rpx;
   text-align: center;
+  display: block;
 }
 
 .body .user .user-info .user-nick {
-  font-size: 12px;
+  font-size: 16px;
   overflow: hidden;
+  line-height: 120rpx;
+}
+
+.body .menu {
+  width: 100%;
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+
+.body .menu .menu-item {
+  height: 50rpx;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.body .menu .menu-item .menu-item-icon {
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-left: 20rpx;
+}
+
+.body .menu .menu-item .menu-item-text{
+  float: left;
+  font-size: 16px;
+  line-height: 50rpx;
+  margin-left: 20rpx;
 }
