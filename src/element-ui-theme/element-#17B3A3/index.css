@@ -1113,7 +1113,7 @@
 }
 
 .el-menu--horizontal > .el-menu-item.is-active {
-  border-bottom: 2px solid #17B3A3;
+  /*border-bottom: 0px solid #17B3A3;*/
   color: #303133
 }
 
@@ -10439,7 +10439,7 @@
 }
 
 .el-collapse-item__header.is-active {
-  border-bottom-color: transparent
+  /*border-bottom-color: transparent*/
 }
 
 .el-collapse-item__wrap {

@@ -8,7 +8,8 @@ body {
   font-size: 14px;
   line-height: 1.15;
   color: #303133;
-  background-color: #fff;
+  //background-color: #fff;
+  background: $content--background-color;
 }
 a {
   color: mix(#fff, $--color-primary, 20%);
@@ -174,7 +175,7 @@ img {
     text-transform: uppercase;
     white-space: nowrap;
     color: #fff;
-    
+
     &-lg,
     &-mini {
       margin: 0 5px;
@@ -222,9 +223,11 @@ img {
     &--right {
       float: right;
     }
+
     a:focus,
     a:hover {
       text-decoration: none;
+      color: $navbar--background-color !important;
     }
     .el-menu-item,
     .el-submenu > .el-submenu__title {
@@ -241,6 +244,10 @@ img {
         line-height: 16px;
       }
     }
+    .el-menu-item.is-active{
+      color: $navbar--background-color !important;
+    }
+
   }
 }
 
@@ -311,9 +318,11 @@ img {
 
   &__wrapper {
     position: relative;
+    text-align: center;
     padding-top: 50px;
-    margin-left: 230px;
-    min-height: 100%;
+    max-width: 960px;
+    min-width: 720px;
+    margin: 0 auto;
     background: $content--background-color;
   }
   &--tabs {
