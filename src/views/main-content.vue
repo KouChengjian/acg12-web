@@ -1,11 +1,11 @@
 <template>
   <main class="site-content" :class="{ 'site-content--tabs': $route.meta.isTab }">
     <!-- 主入口标签页 e -->
-    <el-card  :body-style="siteContentViewHeight">
-      <keep-alive>
+    <!--<el-card  :body-style="siteContentViewHeight">-->
+      <!--<keep-alive>-->
         <router-view />
-      </keep-alive>
-    </el-card>
+      <!--</keep-alive>-->
+    <!--</el-card>-->
   </main>
 </template>
 
