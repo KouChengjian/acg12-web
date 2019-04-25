@@ -10,11 +10,11 @@
           <a target="_blank">菜单一</a>
         </el-menu-item>
 
-        <el-menu-item index="2" @click="$router.push({ name: 'bangumi' })">
+        <el-menu-item index="bangumi" @click="$router.push({ name: 'bangumi' })">
           <a target="_blank">菜单二</a>
         </el-menu-item>
 
-        <el-menu-item index="3" @click="$router.push({ name: 'theme' })">
+        <el-menu-item index="test" @click="$router.push({ name: 'test' })">
           <a target="_blank">菜单三</a>
         </el-menu-item>
 
